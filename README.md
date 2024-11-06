@@ -8,7 +8,7 @@ This project was developed using Eclipse IDE. It is recommended to use Eclipse f
 Steps to Clone and Run the Project
 Open Git Bash and execute the following commands:
 1.	Clone the repository from the master branch:
-    git clone -b master https://github.com/shivam021/entrataProject.git
+    git clone -b master [https://github.com/shivam021/entrataProject.git](https://github.com/shivam021/Entrata.git)
 2.	Navigate into the project directory:
   cd entrataProject
 3.	Execute Maven tests:

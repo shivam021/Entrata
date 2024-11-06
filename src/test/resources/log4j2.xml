@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console Appender: Outputs log messages to the console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!-- File Appender: Writes log messages to a file -->
+        <File name="File" fileName="logs\\LogF\\app.log" append="false">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+
+        <!-- Rolling File Appender: Writes log messages to a file with rolling policy -->
+        <RollingFile name="RollingFile" fileName="logs\\LogF\\app1.log"
+                     filePattern="logs\\LogF\\app-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" />
+            </Policies>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger: Default logger with level and appenders -->
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="File" />
+            <AppenderRef ref="RollingFile" />
+        </Root>
+
+        <!-- Custom Logger for specific package/class -->
+        <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="RollingFile" />
+        </Logger>
+    </Loggers>
+</Configuration>

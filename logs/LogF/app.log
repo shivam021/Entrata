@@ -1,0 +1,8 @@
+2024-11-06 11:12:06,449 [main] INFO  driverFactory.DriversFactory - Starting ChromeDriver
+2024-11-06 11:12:07,844 [main] INFO  driverFactory.DriversFactory - ChromeDriver Started Successfully
+2024-11-06 11:12:07,844 [main] INFO  driverFactory.DriversFactory - Start of Window Maximize
+2024-11-06 11:12:07,882 [main] INFO  driverFactory.DriversFactory - End of Window Maximize
+2024-11-06 11:13:47,877 [main] INFO  driverFactory.DriversFactory - Starting ChromeDriver
+2024-11-06 11:13:48,575 [main] INFO  driverFactory.DriversFactory - ChromeDriver Started Successfully
+2024-11-06 11:13:48,575 [main] INFO  driverFactory.DriversFactory - Start of Window Maximize
+2024-11-06 11:13:48,618 [main] INFO  driverFactory.DriversFactory - End of Window Maximize

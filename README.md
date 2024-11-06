@@ -3,16 +3,25 @@
 Prerequisites
 •	JDK Version: 19
 •	Maven Version: 3.9.1
+
+========================================================================================================================= 
+
 Note
 This project was developed using Eclipse IDE. It is recommended to use Eclipse for smooth setup and execution, though it can be run using any IDE that supports Maven and Java. Ensure that the appropriate TestNG plugin is installed in the IDE for seamless execution of TestNG test cases.
-Steps to Clone and Run the Project
+---------------
+**Steps to Clone and Run the Project**
+
 Open Git Bash and execute the following commands:
-1.	Clone the repository from the master branch:
-    git clone -b master [https://github.com/shivam021/entrataProject.git](https://github.com/shivam021/Entrata.git)
-2.	Navigate into the project directory:
-  cd entrata
-3.	Execute Maven tests:
+
+    1.	Clone the repository from the main branch:
+    git clone -b main [https://github.com/shivam021/entrataProject.git](https://github.com/shivam021/Entrata.git)
+    2.	Navigate into the project directory:
+      cd entrata
+    3. mvn clean
+    4.	Execute Maven tests:
     mvn verify
+
+=========================================================================================================================   
 Automated Test Cases
 1.	Schedule Your Demo Form:
 Verify the functionality of the "Schedule Your Demo" form, including form validation and window handling.

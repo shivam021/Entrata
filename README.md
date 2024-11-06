@@ -10,9 +10,9 @@ Open Git Bash and execute the following commands:
 1.	Clone the repository from the master branch:
     git clone -b master [https://github.com/shivam021/entrataProject.git](https://github.com/shivam021/Entrata.git)
 2.	Navigate into the project directory:
-  cd entrataProject
+  cd entrata
 3.	Execute Maven tests:
-    mvn test
+    mvn verify
 Automated Test Cases
 1.	Schedule Your Demo Form:
 Verify the functionality of the "Schedule Your Demo" form, including form validation and window handling.
@@ -25,6 +25,3 @@ Verify that all the guides listed on the Guides page have a 'Download Now' butto
 5.	Webinar Access:
 Verify that a user cannot watch the webinar unless they are a registered user.
 
-"# Entrata" 
-"# Entrata" 
-"# Entrata" 
